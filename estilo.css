@@ -1,0 +1,339 @@
+.cabeçalho{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    font-size: 40px;
+    text-shadow: 3px 3px rgba(115,4,83,1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,4,83,1) 35%, rgba(24,0,40,1) 100%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+     font-style: normal;
+      
+}
+li{
+    list-style-type: none;
+}
+.pai{
+    margin: 0 auto;
+    width: 300px;
+    margin: 200px auto 0;
+    margin-top: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.quadro1{
+    width: 1000px;
+    height: 500px;
+    border: 3px solid rgba(115,4,83,1);
+    text-align: left;
+    padding: 20px;
+    margin: 50px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.397);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.quadro1:hover{
+    border-color: #ffffff; /* Borda colorida ao passar o mouse */
+    box-shadow: 0 4px 12px #eeeeee ; /* Brilho azul */
+}
+.quadro2{
+    width: 1000px;
+    height: 500px;
+    border: 3px solid rgba(115,4,83,1);
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.397);
+    font-size: 30px;
+    text-align: center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quadro2:hover{
+    border-color: #ffffff; /* Borda colorida ao passar o mouse */
+    box-shadow: 0 4px 12px #eeeeee ; /* Brilho azul */
+}
+.quadro3{
+    width: 1900px;
+    height: 700px;
+    border: 3px solid rgba(115,4,83,1);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.397);
+    font-size: 20px;
+    text-align: center ;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly ;
+    flex-direction: row;
+}
+.quadro3:hover{
+    border-color: #ffffff; /* Borda colorida ao passar o mouse */
+    box-shadow: 0 4px 12px #eeeeee ; /* Brilho azul */
+}
+.quadro4{
+    width: 1900px;
+    height: 700px;
+    border: 3px solid rgba(115,4,83,1);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.397);
+    font-size: 30px;
+    text-align: center ;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly ;
+    flex-direction: row;
+}
+.quadro4:hover{
+    border-color: #ffffff; /* Borda colorida ao passar o mouse */
+    box-shadow: 0 4px 12px #eeeeee ; /* Brilho azul */
+}
+.quadro5{
+    width: 1900px;
+    height: 700px;
+    border: 3px solid rgba(115,4,83,1);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.397);
+    font-size: 30px;
+    text-align: center ;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly ;
+    flex-direction: row;
+}
+.quadro5:hover{
+    border-color: #ffffff; /* Borda colorida ao passar o mouse */
+    box-shadow: 0 4px 12px #eeeeee ; /* Brilho azul */
+}
+.quadro6{
+    width: 1900px;
+    height: 700px;
+    border: 3px solid rgba(115,4,83,1);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.397);
+    font-size: 30px;
+    text-align: center ;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly ;
+    flex-direction: row;
+}
+.quadro7{
+    width: 1900px;
+    height: 700px;
+    border: 3px solid rgba(115,4,83,1);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.397);
+    font-size: 20px;
+    text-align: center ;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+.quadro7:hover{
+    border-color: #ffffff; /* Borda colorida ao passar o mouse */
+    box-shadow: 0 4px 12px #eeeeee ; /* Brilho azul */
+}
+.quadro6:hover{
+    border-color: #ffffff; /* Borda colorida ao passar o mouse */
+    box-shadow: 0 4px 12px #eeeeee ; /* Brilho azul */
+
+}
+.foto{
+    position: absolute;
+    right: 250px; /* Ajuste conforme necessário */
+    top: 50px; /* Ajuste conforme necessário */
+    width: 400px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Opcional: arredonda as bordas da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+
+}
+.foto:hover{
+    
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+    
+}
+.foto2{
+    position: absolute;
+    left: 35px; /* Ajuste conforme necessário */
+    top: 750px; /* Ajuste conforme necessário */
+    width: 800px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Opcional: arredonda as bordas da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.foto2:hover{
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+}
+.fotoDelto{
+
+    left: 50px; /* Ajuste conforme necessário */
+    top: 1000px; /* Ajuste conforme necessário */
+    width: 800px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Opcional: arredonda as bordas da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.fotoDelto:hover{
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+}
+
+.fotoMiloca{
+    left: 50px; /* Ajuste conforme necessário */
+    top: 1000px; /* Ajuste conforme necessário */
+    width: 800px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Opcional: arredonda as bordas da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.fotoMiloca:hover{
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+}
+.fotoAlpha{
+    left: 50px; /* Ajuste conforme necessário */
+    top: 1000px; /* Ajuste conforme necessário */
+    width: 600px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Opcional: arredonda as bordas da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fotoAlpha:hover{
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+}
+.fotoETEC{
+    left: 50px; /* Ajuste conforme necessário */
+    top: 1000px; /* Ajuste conforme necessário */
+    width: 620px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Opcional: arredonda as bordas da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.fotoETEC:hover{
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+}
+.ccaa{
+    margin-right : 100px; /* Ajuste conforme necessário */
+    top: 1000px; /* Ajuste conforme necessário */
+    width: 400px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Opcional: arredonda as bordas da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 30px;
+}
+.ccaa:hover{
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+}
+.pref{
+    margin-left : 100px; /* Ajuste conforme necessário */
+    top: 1000px; /* Ajuste conforme necessário */
+    width: 700px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Opcional: arredonda as bordas da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 30px;
+    margin-right: 150px;
+}
+.pref:hover{
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+}
+.academia{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.academia:hover{
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+}
+.palco{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    width: 700px;
+}
+.palco:hover{
+    transform: scale(1.1); /* Aumenta a imagem quando o mouse passa sobre ela */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Intensifica a sombra ao passar o mouse */
+    
+}
